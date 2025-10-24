@@ -1,15 +1,17 @@
-/* .carousel-item img {
-  height: 450px;
-  object-fit: cover;
-} */
 .carousel {
- 
   position: relative;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .carousel img {
   height: 70vh;
   width: 100%;
   /* object-fit: cover; */
+}
+
+/* Hide carousel on screens smaller than 768px */
+@media (max-width: 768px) {
+  .carousel {
+    display: none;
+  }
 }

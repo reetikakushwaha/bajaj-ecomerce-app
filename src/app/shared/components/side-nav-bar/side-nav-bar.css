@@ -6,3 +6,15 @@
   z-index: 1000;
   height: 56px;
 }
+
+/* Default navbar height */
+.custom-navbar {
+  /* transition: height 0.01s ease; */
+}
+
+/* When expanded on mobile, increase height */
+@media (max-width: 991.98px) {
+  .custom-navbar.show-height {
+    height: 250px; /* Adjust as needed */
+  }
+}
