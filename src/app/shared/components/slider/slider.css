@@ -1,0 +1,15 @@
+/* .carousel-item img {
+  height: 450px;
+  object-fit: cover;
+} */
+.carousel {
+ 
+  position: relative;
+  z-index: 1; 
+}
+
+.carousel img {
+  height: 70vh;
+  width: 100%;
+  /* object-fit: cover; */
+}

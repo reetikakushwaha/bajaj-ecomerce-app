@@ -1,0 +1,8 @@
+.navbar-brand {
+  font-size: 1.4rem;
+  color: #ff9900 !important;
+}
+.navbar {
+  z-index: 1000;
+  height: 56px;
+}

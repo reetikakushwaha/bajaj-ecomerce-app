@@ -1,8 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'bajaj-footer',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './footer.html',
   styleUrl: './footer.css',
 })

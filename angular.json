@@ -25,6 +25,7 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "bootswatch/dist/united/bootstrap.min.css",
               "src/styles.css"
             ],
@@ -92,5 +93,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5c0a7c06-4038-4583-a024-ae147b148316"
   }
 }

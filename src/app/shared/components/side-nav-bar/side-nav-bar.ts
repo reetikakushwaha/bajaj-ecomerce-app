@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'bajaj-side-nav-bar',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './side-nav-bar.html',
-  styleUrl: './side-nav-bar.css',
+  styleUrls: ['./side-nav-bar.css'] 
 })
 export class SideNavBar {
-
+ 
 }
