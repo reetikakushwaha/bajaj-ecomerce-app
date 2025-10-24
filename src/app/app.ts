@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { SideNavBar } from "./shared/components/side-nav-bar/side-nav-bar";
 
 @Component({
   selector: 'bajaj-root',
-  imports: [],
+  imports: [SideNavBar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
